@@ -1,9 +1,0 @@
-﻿  Main.cpp
-C:\Users\iansp\source\repos\RayTracedShadows\RayTracedShadows\vec3.h(79,43): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-C:\Users\iansp\source\repos\RayTracedShadows\RayTracedShadows\vec3.h(79,31): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-C:\Users\iansp\source\repos\RayTracedShadows\RayTracedShadows\vec3.h(79,19): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-C:\Users\iansp\source\repos\RayTracedShadows\RayTracedShadows\color.h(17,15): warning C4244: '*=': conversion from 'double' to 'float', possible loss of data
-C:\Users\iansp\source\repos\RayTracedShadows\RayTracedShadows\color.h(18,15): warning C4244: '*=': conversion from 'double' to 'float', possible loss of data
-C:\Users\iansp\source\repos\RayTracedShadows\RayTracedShadows\color.h(19,15): warning C4244: '*=': conversion from 'double' to 'float', possible loss of data
-C:\Users\iansp\source\repos\RayTracedShadows\RayTracedShadows\Main.cpp(16,70): warning C4305: 'argument': truncation from 'double' to 'float'
-  RayTracedShadows.vcxproj -> C:\Users\iansp\source\repos\RayTracedShadows\Debug\RayTracedShadows.exe

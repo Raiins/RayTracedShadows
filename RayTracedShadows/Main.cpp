@@ -7,16 +7,16 @@
 #include <iostream>
 
 //center of the light source
-const point3 LIGHTSOURCE = point3(0.0, 3.0, 0.0);
+const point3 LIGHTSOURCE = point3(1.0, 3.0, 0.0);
 //Set soft shadows or hard shadows
 const bool OPTIMIZE = true;
 //Sets radius for light
-const auto OPTIMIZE_RADIUS = 0.3;
+const auto OPTIMIZE_RADIUS = 0.5;
 //Image settings
-const auto ASPECT_RATIO = 3.0 / 2.0;
-const int IMAGE_WIDTH = 1200;
+const auto ASPECT_RATIO = 16.0 / 9.0;
+const int IMAGE_WIDTH = 1024;
 //Sphere Gen settings
-const auto UPPERLIMIT = 1.8;
+const auto UPPERLIMIT = 2;
 
 //Function that generates the random point for the light source
 point3 randomizeLightSource(point3 source, double radius) {
@@ -39,7 +39,7 @@ hittable_list random_scene() {
 
             //Only change is this check here to include the upperlimit because this was taking way to long to render for testing with the unbounded upperlimit
             if ((center - point3(4, 0.2, 0)).length() > 0.9 && (center - point3(4, 0.2, 0)).length() < UPPERLIMIT) {
-                world.add(make_shared<sphere>(center, 0.2));
+                world.add(make_shared<sphere>(center, 0.2, randomColor()));
             }
         }
     }
@@ -136,7 +136,7 @@ int main() {
 
     // Camera
 
-    point3 lookfrom(13, 2, 3);
+    point3 lookfrom(5, 5, 5);
     point3 lookat(0, 0, 0);
     vec3 vup(0, 1, 0);
     auto dist_to_focus = 10.0;
