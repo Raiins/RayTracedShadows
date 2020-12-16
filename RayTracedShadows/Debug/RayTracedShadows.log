@@ -1,0 +1,32 @@
+﻿  Main.cpp
+C:\Users\iansp\source\repos\RayTracedShadows\RayTracedShadows\vec3.h(57,68): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\iansp\source\repos\RayTracedShadows\RayTracedShadows\vec3.h(57,51): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\iansp\source\repos\RayTracedShadows\RayTracedShadows\vec3.h(57,34): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\iansp\source\repos\RayTracedShadows\RayTracedShadows\vec3.h(61,84): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\iansp\source\repos\RayTracedShadows\RayTracedShadows\vec3.h(61,59): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\iansp\source\repos\RayTracedShadows\RayTracedShadows\vec3.h(61,34): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\iansp\source\repos\RayTracedShadows\RayTracedShadows\vec3.h(100,43): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\iansp\source\repos\RayTracedShadows\RayTracedShadows\vec3.h(100,31): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\iansp\source\repos\RayTracedShadows\RayTracedShadows\vec3.h(100,19): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\iansp\source\repos\RayTracedShadows\RayTracedShadows\color.h(22,15): warning C4244: '*=': conversion from 'double' to 'float', possible loss of data
+C:\Users\iansp\source\repos\RayTracedShadows\RayTracedShadows\color.h(23,15): warning C4244: '*=': conversion from 'double' to 'float', possible loss of data
+C:\Users\iansp\source\repos\RayTracedShadows\RayTracedShadows\color.h(24,15): warning C4244: '*=': conversion from 'double' to 'float', possible loss of data
+C:\Users\iansp\source\repos\RayTracedShadows\RayTracedShadows\color.h(36,24): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\iansp\source\repos\RayTracedShadows\RayTracedShadows\color.h(36,21): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\iansp\source\repos\RayTracedShadows\RayTracedShadows\color.h(36,18): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\iansp\source\repos\RayTracedShadows\RayTracedShadows\camera.h(42,62): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\iansp\source\repos\RayTracedShadows\RayTracedShadows\camera.h(42,40): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\iansp\source\repos\RayTracedShadows\RayTracedShadows\Main.cpp(29,25): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\iansp\source\repos\RayTracedShadows\RayTracedShadows\Main.cpp(29,22): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\iansp\source\repos\RayTracedShadows\RayTracedShadows\Main.cpp(29,19): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\iansp\source\repos\RayTracedShadows\RayTracedShadows\Main.cpp(39,61): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\iansp\source\repos\RayTracedShadows\RayTracedShadows\Main.cpp(39,85): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\iansp\source\repos\RayTracedShadows\RayTracedShadows\Main.cpp(39,29): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\iansp\source\repos\RayTracedShadows\RayTracedShadows\Main.cpp(42,16): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\iansp\source\repos\RayTracedShadows\RayTracedShadows\Main.cpp(94,70): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\iansp\source\repos\RayTracedShadows\RayTracedShadows\Main.cpp(171,89): warning C4244: 'argument': conversion from '_Rep' to 'int', possible loss of data
+          with
+          [
+              _Rep=__int64
+          ]
+  RayTracedShadows.vcxproj -> C:\Users\iansp\source\repos\RayTracedShadows\Debug\RayTracedShadows.exe
